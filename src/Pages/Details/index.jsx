@@ -18,7 +18,6 @@ export function Details() {
       <Header />
       <div className="content">
         <h1>{title || "Título não disponível"}</h1>
-
         <div className="info">
           <p><strong>📝 Descrição:</strong> {description}</p>
           <p><strong>📍 Localização:</strong> {city}</p>

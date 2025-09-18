@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineDescription } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // IMPORT CORRETO
 
-export function Cards({ title, location, description, responsible, email, link }) {
+export function Cards({ id, title, location, description, responsible, contact, link }) {
   const navigate = useNavigate();
 
   function handleDetails() {
@@ -13,7 +13,7 @@ export function Cards({ title, location, description, responsible, email, link }
         location,
         description,
         responsible,
-        email,
+        email: contact,
         link
       }
     });
@@ -21,14 +21,12 @@ export function Cards({ title, location, description, responsible, email, link }
 
   return (
     <Container>
-      <div className="icon">
-        
-      </div>
       <div className="info">
         <h2>{title}</h2>
         <p>
           <CiLocationOn /> {location}
         </p>
+        <p><strong>Responsável:</strong> {responsible}</p>
         <p className="description">
           <MdOutlineDescription /> {description}
         </p>

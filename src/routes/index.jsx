@@ -1,13 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
-import { AppRoutes } from "./app.routes";
+import { AppRoutes } from "./app.routes.jsx"; // import correto
 
-export function Routes() {
-
-
-    return(
-        <BrowserRouter>
-           <AppRoutes/>
-        </BrowserRouter>
-    )  
+export function RoutesWrapper() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
-
