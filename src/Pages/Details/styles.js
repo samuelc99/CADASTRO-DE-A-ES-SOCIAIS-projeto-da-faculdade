@@ -39,6 +39,7 @@ export const Container = styled.div`
     strong {
       font-weight: 700;
       color: #2563eb;
+      margin-right: 10px;
     }
 
     a {

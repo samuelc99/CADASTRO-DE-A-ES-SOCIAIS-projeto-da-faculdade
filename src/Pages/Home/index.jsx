@@ -45,7 +45,7 @@ export function Home() {
               location={action.location}
               description={action.description}
               responsible={action.responsible}
-              email={action.contact}
+              contact={action.contact}
               link={action.link}
             />
           ))}

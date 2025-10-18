@@ -29,6 +29,9 @@ export const Container = styled.div`
     margin-right: 3px;
     margin-bottom: -1px;
   }
+  img {
+    width: 100px;
+  }
 
   .info {
     flex: 1;

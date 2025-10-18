@@ -9,7 +9,7 @@ export function Details() {
     description,
     location: city,
     responsible,
-    email,
+    contact,
     link
   } = location.state || {};
 
@@ -22,7 +22,7 @@ export function Details() {
           <p><strong>📝 Descrição:</strong> {description}</p>
           <p><strong>📍 Localização:</strong> {city}</p>
           <p><strong>👤 Responsável:</strong> {responsible}</p>
-          <p><strong>📧 Contato:</strong> {email}</p>
+          <p><strong>📧 Contato:</strong> {contact}</p>
           <p>
             <strong>💻 Link para doações:</strong>{" "}
             <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>

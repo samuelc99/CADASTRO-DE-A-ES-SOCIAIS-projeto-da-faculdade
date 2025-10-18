@@ -13,7 +13,7 @@ export function Cards({ id, title, location, description, responsible, contact, 
         location,
         description,
         responsible,
-        email: contact,
+        contact,
         link
       }
     });
@@ -21,6 +21,7 @@ export function Cards({ id, title, location, description, responsible, contact, 
 
   return (
     <Container>
+      <img src="https://acaosocialdeperuibe.org/wp-content/uploads/2021/10/cropped-logo-Acao-Social.jpg" alt="" />
       <div className="info">
         <h2>{title}</h2>
         <p>
