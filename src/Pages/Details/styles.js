@@ -17,6 +17,7 @@ export const Container = styled.div`
     margin: 40px auto;
   }
 
+
   h1 {
     font-size: 32px;
     font-weight: 800;

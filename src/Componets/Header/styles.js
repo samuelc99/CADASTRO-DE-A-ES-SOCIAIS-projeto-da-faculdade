@@ -1,63 +1,58 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 1280px;
-    margin: 0 auto;
-     
+  width: 80rem; 
+  margin: 0 auto;
 
-    header {
-      width: 67.5%;
-      top: 20px;
-      position: absolute;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 2px solid black;
-      padding-bottom: 12px;
-      margin-bottom: 130px;
+  header {
+    width: 67.5%;
+    top: 1.25rem; 
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.125rem solid black; 
+    padding-bottom: 0.75rem; 
+    margin-bottom: 8.125rem; 
 
-      h1 {
-        font-size: 24px;
-        font-weight: bold;
-      }
+    h1 {
+      font-size: 1.5rem; 
+      font-weight: bold;
+    }
 
-      .search {
-      margin-top: 10px;
-      padding: 12px;
+    .search {
+      margin-top: 0.625rem; 
+      padding: 0.75rem; 
       width: 100%;
-      max-width: 350px;
-      border-radius: 4px;
-      border: 1px solid #ccc;
+      max-width: 21.875rem; 
+      border-radius: 0.25rem; 
+      border: 0.0625rem solid #ccc; 
     }
 
-        nav {
-          display: flex;
-          gap: 24px;
-
-          a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: black;
-            font-size: 14px;
-           
-
-            &:hover {
-              text-decoration: underline;
-              transition: ease 100ms;
-              font-size: 15px;             
-            }
-          }
-
-    svg {
+    nav {
       display: flex;
-      width: 23px;
-      height: 23px;
-      margin: 0 2px 2px 0;
-    }
+      gap: 1.5rem; 
 
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 0.875rem; 
 
+        &:hover {
+          text-decoration: underline;
+          transition: ease 100ms;
+          font-size: 0.9375rem; 
+        }
       }
+
+      svg {
+        display: flex;
+        width: 1.4375rem; 
+        height: 1.4375rem; 
+        margin: 0 0.125rem 0.125rem 0; 
+      }
+    }
   }
-  
 `
